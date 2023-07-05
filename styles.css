@@ -24,7 +24,6 @@ nav .navbar-brand {
 }
 
 /* Intro Page */
-
 .intro {
     padding-top: 50px;
 }
@@ -41,4 +40,59 @@ nav .navbar-brand {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+}
+
+/* Questions */
+.question {
+    padding-top: 50px;
+}
+
+.question .primaryBtn {
+    text-align: left;
+    padding-left: 15px;
+    width: 200px;
+}
+
+.btnOptions button {
+    margin: 5px;
+}
+
+/* All Done */
+.allDone {
+    padding-top: 50px;
+}
+
+.allDone p {
+    font-size: 1.5rem;
+}
+
+.contentBox {
+    width: 50%;
+}
+
+label {
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+form .primaryBtn {
+    height: 30px;
+    width: 100px;
+    margin-left: 5px;
+}
+
+/* High Scores */
+.highScores .primaryBtn {
+    width: fit-content;
+    padding: 0 10px;
+}
+
+.highScores ul {
+    padding: 0;
+}
+
+.highScores li {
+    background-color: rgba(192, 104, 233, 0.3);
+    padding: 5px 0 5px 5px;
+    list-style: none;
 }
