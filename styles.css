@@ -1,0 +1,44 @@
+/* Buttons */
+.primaryBtn {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #361C74;
+    color: white;
+    font-size: 1.1rem;
+    transition: background-color 0.2s ease;
+}
+
+.primaryBtn:hover {
+    background-color: #C068E9;
+}
+
+/* Nav Bar */
+nav .navbar-brand {
+    color: #C068E9;
+}
+
+.nav-item {
+    font-size: 1.25rem;
+}
+
+/* Intro Page */
+
+.intro {
+    padding-top: 50px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    width: 50%;
+}
+
+.intro .primaryBtn {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
