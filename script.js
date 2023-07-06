@@ -1,3 +1,33 @@
+// Questions
+let questions = [
+    {
+        question: "What is my favorite food?",
+        options: ["chicken", "steak", "carrots", "leaf"],
+        answer: "leaf"
+    },
+    {
+        question: "What is my favorite salad?",
+        options: ["chicken", "steak", "carrots", "leaf"],
+        answer: "leaf"
+    },
+    {
+        question: "What is my favorite dog?",
+        options: ["my dog", "her dog", "she dog", "dog"],
+        answer: "my dog"
+    },
+    {
+        question: "What is my favorite dish?",
+        options: ["chicken", "steak", "carrots", "leaf"],
+        answer: "leaf"
+    },
+    {
+        question: "What is my favorite spinach?",
+        options: ["chicken", "steak", "carrots", "leaf"],
+        answer: "leaf"
+    },
+]
+
+
 // Section References
 const introSection = document.querySelector('#introSection');
 const questionSection = document.querySelector('#questionSection');
