@@ -41,7 +41,6 @@ const questionTitle = document.querySelector('#questionTitle');
 const optionButtons = document.querySelectorAll('.optionBtn');
 
 
-
 // Start Quiz
 introBtn.addEventListener("click", () => {
     introSection.style.display = "none";
