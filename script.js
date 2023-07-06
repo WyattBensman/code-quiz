@@ -37,13 +37,29 @@ const highScoresSection = document.querySelector('#highScoresSection');
 const introBtn = document.querySelector('#introBtn');
 const highScores = document.querySelector('.navbar-brand')
 const goBackBtn = document.querySelector('#goBack')
+const questionTitle = document.querySelector('#questionTitle');
+const optionButtons = document.querySelectorAll('.optionBtn');
+
+
 
 // Start Quiz
 introBtn.addEventListener("click", () => {
     introSection.style.display = "none";
     questionSection.style.display = "flex";
     setTime();
+    displayQuestion();
 });
+
+// Display Question
+function displayQuestion() {
+    const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
+
+    questionTitle.textContent = randomQuestion.question;
+
+    optionButtons.forEach((button, index) => {
+        button.textContent = randomQuestion.options[index];
+    });
+}
 
 // View High Scores
 highScores.addEventListener("click", () => {
