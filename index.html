@@ -21,23 +21,22 @@
             <a href="##" class="navbar-brand">View High Scores</a>
             <!-- Time -->
             <ul class="navbar-nav">
-                <li class="nav-item" id="time"></li>
+                <li class="nav-item" id="time">Time:</li>
             </ul>
         </div>
     </nav>
 
-    <button class="primaryBtn">Click Here</button>
-
     <!-- Intro Page -->
-    <!--     <section class="intro container d-flex flex-column justify-content-center align-items-center text-center">
+    <section id="introSection" class="intro container text-center">
         <h1>Coding Quiz Challenge</h1>
         <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
             answers
             will penalize your score/time by ten seconds!</p>
-        <a href="##" class="primaryBtn">Start Quiz</a>
-    </section> -->
+        <buttton id="introBtn" class="primaryBtn">Start Quiz</button>
+    </section>
 
-    <!--     <section class="question container d-flex flex-column align-items-center">
+    <!-- Questions Page -->
+    <section id="questionSection" class="question container">
         <div class="contenBox">
             <h1>Commonly used data types do NOT include:</h1>
             <div class="btnOptions d-flex flex-column">
@@ -47,9 +46,10 @@
                 <button class="primaryBtn">Numbers</button>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="allDone container d-flex flex-column align-items-center">
+    <!-- Done Page -->
+    <section id="doneSection" class="done container">
         <div class="contentBox">
             <h1>All done!</h1>
             <p>Your final score is 22.</p>
@@ -59,18 +59,19 @@
                 <button class="primaryBtn">Submit!</button>
             </form>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="highScores container d-flex flex-column align-items-center">
+    <!-- High Scores Page -->
+    <section id="highScoresSection" class="highScores container">
         <div class="contentBox">
             <h1>High Scores</h1>
             <ul>
                 <li>Swag</li>
             </ul>
-            <button class="primaryBtn">Go Back</button>
+            <button id="goBack" class="primaryBtn">Go Back</button>
             <button class="primaryBtn">Clear High Scores</button>
         </div>
-    </section> -->
+    </section>
 
     <!-- JavaScript Link -->
     <script src="./script.js"></script>
