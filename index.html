@@ -32,7 +32,7 @@
         <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
             answers
             will penalize your score/time by ten seconds!</p>
-        <buttton id="introBtn" class="primaryBtn">Start Quiz</button>
+        <button id="introBtn" class="primaryBtn">Start Quiz</button>
     </section>
 
     <!-- Questions Page -->
@@ -46,13 +46,14 @@
                 <button class="primaryBtn optionBtn"></button>
             </div>
         </div>
+        <div id="messageContainer"></div>
     </section>
 
     <!-- Done Page -->
     <section id="doneSection" class="done container">
         <div class="contentBox">
             <h1>All done!</h1>
-            <p>Your final score is 22.</p>
+            <p id="scoreMessage"></p>
             <form action="">
                 <label for="">Enter Initials:</label>
                 <input type="text">
